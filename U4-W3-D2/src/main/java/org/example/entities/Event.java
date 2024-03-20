@@ -35,4 +35,16 @@ public class Event {
     public long getId() {
         return id;
     }
+
+    @Override
+    public String toString() {
+        return "Event{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", eventDate=" + eventDate +
+                ", description='" + description + '\'' +
+                ", eventType=" + eventType +
+                ", maxNumberParticipants=" + maxNumberParticipants +
+                '}';
+    }
 }
